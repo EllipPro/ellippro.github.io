@@ -9,10 +9,10 @@
 <style>
   
 body {
-    padding: 25px;
+    padding: 20px;
     background-color: #1f1f1f;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
   }
   .dark-mode {
     background-color: #1f1f1f;
@@ -202,20 +202,6 @@ ul {
 	</header> 
     <button onclick="darkMode()">Darkmode</button>
     <button onclick="lightMode()">LightMode</button>
-    <script>
-        function darkMode() {
-            let element = document.body;
-            let content = document.getElementById("DarkModetext");
-            element.className = "dark-mode";
-            content.innerText = "Dark Mode is ON";
-        }
-        function lightMode() {
-            let element = document.body;
-            let content = document.getElementById("DarkModetext");
-            element.className = "light-mode";
-            content.innerText = "Dark Mode is OFF";
-        }
-    </script>
 <!-- partial:index.partial.html -->
 <!-- partial -->
 </body>
